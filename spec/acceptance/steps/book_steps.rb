@@ -9,7 +9,7 @@ step '本Bを作成した' do
 end
 
 step '本Cを作成した' do
-  Book.create(title: 'B', price: 150)
+  Book.create(title: 'C', price: 150)
 end
 
 step '合計を算出する' do
