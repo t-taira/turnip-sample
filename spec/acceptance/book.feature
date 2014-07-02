@@ -1,6 +1,5 @@
 # encoding: utf-8
 # language: ja
-
 機能: 本
 
   シナリオ: 本の金額計算（2冊）
