@@ -1,15 +1,15 @@
 # encoding: utf-8
 # language: ja
 step '本Aを作成した' do
-  Book.create(title: 'A', price: 200)
+  Book.create!(title: 'A', price: 200)
 end
 
 step '本Bを作成した' do
-  Book.create(title: 'B', price: 100)
+  Book.create!(title: 'B', price: 100)
 end
 
 step '本Cを作成した' do
-  Book.create(title: 'C', price: 150)
+  Book.create!(title: 'C', price: 150)
 end
 
 step '合計を算出する' do
