@@ -1,11 +1,5 @@
 # encoding: utf-8
 # language: ja
-
-
-#前提 本Aを作成
-#かつ 本Bを作成
-#もし 本Aと本Bの合計を足したら
-#ならば 300円になっている
 step '本Aを作成' do
   Book.create(title: 'A', price: 150)
 end
